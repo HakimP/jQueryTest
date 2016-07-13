@@ -1,0 +1,27 @@
+.circulo {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	margin-top: 10vh;
+	background-color: salmon;
+	border-radius: 100px;
+}
+
+.miBoton {
+	width: 100px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+	background: rgba(242,246,248,1);
+	font-family:Arial, Verdana, sans-serif;
+	box-shadow: 2px 2px 5px #999
+	margin:0;
+	text-align: center;
+	padding-top: auto;
+	/*pone un cursor como imagen mano*/
+	cursor: pointer;
+}
+
+.miBoton:hover {
+	background: salmon;
+}
+.miBoton:active{color:#FFF}
